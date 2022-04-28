@@ -1,20 +1,5 @@
 
 wp.domReady( function() {
-	wp.blocks.registerBlockVariation(
-		'core/cover',
-		{
-			name: 'with-feature-image',
-			title: 'With Feature Image',
-			category: 'catalina-blocks',
-			attributes: {
-				useFeaturedImage: true,
-			},
-			supports: {
-				align: ['full'],
-			},
-		}
-	);
-
 	embedVariations = [
 		'amazon-kindle',
 		'animoto',

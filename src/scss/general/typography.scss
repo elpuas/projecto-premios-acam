@@ -1,20 +1,16 @@
 @font-face {
-    font-family: "Inter";
+    font-display: swap;
+    font-family: "Brandon Grotesque";
+    font-style: normal;
     font-weight: 500;
-    font-style: normal;
-    src: url("../fonts/Inter-Medium.woff2");
+    src: url("../fonts/BrandonGrotesque-Bold.woff2");
 }
 
 @font-face {
-    font-family: "Inter Bold";
+    font-display: swap;
+    font-family: "Brandon Grotesque Bold";
+    font-style: normal;
     font-weight: 700;
-    font-style: normal;
-    src: url("../fonts/Inter-Bold.woff2");
+    src: url("../fonts/BrandonGrotesque-Bold.woff2");
 }
 
-@font-face {
-    font-family: "Inter Black";
-    font-weight: 900;
-    font-style: normal;
-    src: url("../fonts/Inter-Black.woff2");
-}

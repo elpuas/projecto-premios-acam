@@ -1,13 +1,12 @@
 :root {
-    --primary-color:   #D8FF00;
-    --secondary-color: #5E6F00;
-    --tertiary-color:  #B6D600;
-    --white-color:     #FFF;
-    --black-color:     #333333;
-    --font-normal:     'Inter', sans-serif;
-    --font-bold:       'Inter Bold', sans-serif;
-    --font-black:      'Inter Black', sans-serif;
-    --leading-loose:   34px;
+    --primary-color:    #314460;
+    --secondary-color:  #B9B19C;
+    --tertiary-color:   #B7B677;
+    --quaternary-color: #B7B677;
+    --white-color:      #FFF;
+    --black-color:      #192132;
+    --leading-loose:    34px;
+    --gradient-home:    linear-gradient(45deg,rgb(49,68,96) 0%,rgb(25,33,50) 100%);
 
-    --container:   1152px;
+    --container:        1152px;
 }

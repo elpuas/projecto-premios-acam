@@ -1,7 +1,7 @@
 {
-  "name": "Catalina",
+  "name": "proyecto-acam",
   "version": "1.0.0",
-  "description": "FSE Catalina",
+  "description": "FSE Custom Theme for ACAM",
   "main": "index.js",
   "scripts": {
     "build": "wp-scripts build",
@@ -11,7 +11,7 @@
   "author": "Alfredo Navas",
   "license": "ISC",
   "devDependencies": {
-    "@wordpress/scripts": "^22.3.0",
+    "@wordpress/scripts": "^22.5.0",
     "css-loader": "^5.1.0",
     "mini-css-extract-plugin": "^1.3.9",
     "sass-loader": "^11.0.1"
