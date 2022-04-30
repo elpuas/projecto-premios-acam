@@ -5,6 +5,22 @@
                 align-items: center !important;
                 margin-bottom: 0;
                 padding-top: 32px;
+
+                @media (max-with: 768px) {
+                    .wp-block-column {
+                        &:first-child {
+                            text-align: center;
+                        }
+
+                        .wp-block-navigation__container {
+                            justify-content: center;
+                        }
+                    }
+                }
+
+                @media ( max-width: 600px ) {
+                    padding-top: 0;
+                }
             }
         }
     }
