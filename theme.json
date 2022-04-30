@@ -50,7 +50,7 @@
 					"name": "Tertiary"
 				},
 				{
-					"color": "#B7B677",
+					"color": "#C19E76",
 					"slug": "quaternary",
 					"name": "Quaternary"
 				},
@@ -238,7 +238,15 @@
 			}
 		}
 	},
-	"customTemplates": [],
+	"customTemplates": [
+		{
+            "name": "page-about",
+            "title": "The About Template",
+            "postTypes": [
+                "page"
+            ]
+        }
+	],
 	"templateParts": [
 		{
 			"name": "acam-header",

@@ -1,0 +1,11 @@
+.wp-site-blocks {
+    > .wp-block-template-part {
+        .header {
+            &.wp-block-columns {
+                align-items: center !important;
+                margin-bottom: 0;
+                padding-top: 32px;
+            }
+        }
+    }
+}
