@@ -6,20 +6,32 @@
                 margin-bottom: 0;
                 padding-top: 32px;
 
-                @media (max-with: 768px) {
+                @media (max-width: 768px) {
                     .wp-block-column {
-                        &:first-child {
+                        .wp-block-site-logo {
                             text-align: center;
                         }
 
-                        .wp-block-navigation__container {
-                            justify-content: center;
+                        .wp-block-navigation {
+                            ul {
+                                justify-content: center !important;
+                            }
                         }
                     }
                 }
+            }
 
-                @media ( max-width: 600px ) {
-                    padding-top: 0;
+            .wp-block-navigation__responsive-container-open  {
+                position: absolute;
+                right: 16px;
+                top: -100px;
+            }
+            .wp-block-navigation-item__content {
+                &:hover,
+                &[aria-current="page"] {
+                    span {
+                        color: var(--tertiary-color);
+                    }
                 }
             }
         }
