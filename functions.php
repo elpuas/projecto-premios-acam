@@ -17,6 +17,7 @@ function catalina_get_theme_include_files() {
 	return [
 		'inc/scripts.php', // Load styles and scripts.
 		'inc/patterns.php', // Gutenberg patterns for this theme.
+		'inc/gravity-forms.php', // Gravity Forms Customizations.
 	];
 }
 

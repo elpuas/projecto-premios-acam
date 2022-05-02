@@ -1,15 +1,15 @@
-# Empty Theme
+# Project ACAM
 
-Empty theme contains all of the boilerplate you need to get started building a block-based theme: 
+This a Custom Block Based Theme, which  
 
-- An empty `theme.json` file. 
+- A `theme.json` file with the theme styles. 
 - `functions.php` with some basic setup.
 - `style.css` to set up the theme.
 - A separate stylesheet with all the front-end alignments you'll need. 
-- An empty `index.php`
+- An empty `index.php`.
 
-It also includes a basic `index.html` template and `header.html` template part so that the theme works out of the box with no modifications. 
+It also includes a `index.html`, `front-page.html`, `page.html`, `page-about.html` template, a `header.html`, and `footer.html` template part so that the theme works out of the box with no modifications. 
 
-For more background on the theme, [read the original PR](https://github.com/WordPress/theme-experiments/pull/81). 
+This theme uses `wp-scripts` 
 
 🌟 [Use the command line tool](https://github.com/WordPress/theme-experiments#generating-your-own-starter-theme) to generate your own brand-new theme based on this boilerplate.
