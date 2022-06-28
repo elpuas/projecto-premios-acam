@@ -20,14 +20,10 @@ function scripts() {
 	$asset_file_path = dirname( __DIR__ ) . '/build/index.asset.php';
 	$asset_file_time = get_stylesheet_directory() . '/build/index.asset.php';
 
-	if ( is_readable( $asset_file_path ) ) {
-		$asset_file = include $asset_file_path;
-	} else {
-		$asset_file = [ // phpcs:ignore
+	$asset_file = [ // phpcs:ignore
 			'version'      => filemtime( $asset_file_time ),
-			'dependencies' => [ 'wp-polyfill' ], // phpcs:ignore
+			'dependencies' => [ 'wp-polyfill', ], // phpcs:ignore
 		];
-	}
 
 	// Enqueue theme stylesheet.
 	wp_enqueue_style( 'acam', get_template_directory_uri() . '/style.css', [], filemtime( $asset_file_time ) ); // phpcs:ignore
