@@ -27,30 +27,35 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(45deg,rgb(49,68,96) 0%,rgb(25,33,50) 100%)",
+					"gradient": "linear-gradient(to bottom, #b07333 0%,#9b6530 8%,#a16936 37%,#ca8140 44%,#f6f569 67%,#ca8140 100%)",
 					"slug": "acam",
 					"name": "ACAM"
+				},
+				{
+					"gradient": "radial-gradient(circle, rgba(5,13,44,1) 0%, rgba(5,12,38,1) 23%, rgba(7,9,23,1) 61%, rgba(9,7,8,1) 100%)",
+					"slug": "acam-dark",
+					"name": "ACAM Dark"
 				}
 			],
 			"link": false,
 			"palette": [
 				{
-					"color": "#314460",
+					"color": "#EAB12E",
 					"slug": "primary",
 					"name": "Primary"
 				},
 				{
-					"color": "#B9B19C",
+					"color": "#050D2C",
 					"slug": "secondary",
 					"name": "Secondary"
 				},
 				{
-					"color": "#B7B677",
+					"color": "#ED9A4C",
 					"slug": "tertiary",
 					"name": "Tertiary"
 				},
 				{
-					"color": "#C19E76",
+					"color": "#050D2C",
 					"slug": "quaternary",
 					"name": "Quaternary"
 				},
